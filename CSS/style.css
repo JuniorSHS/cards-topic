@@ -8,10 +8,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  background-color: rgb(33, 33, 33);
 }
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  
 }
 .clear {
   clear: both;
@@ -45,6 +47,7 @@ h2 {
   margin-bottom: 48px;
   padding-bottom: 16px;
   font-size: 20px;
+  color: #fff;
   line-height: 28px;
   font-weight: 700;
   position: relative;
@@ -53,6 +56,7 @@ h2 {
 h3 {
   margin: 0 0 10px;
   font-size: 28px;
+  background-color: transparent;
   line-height: 36px;
 }
 /******* Common Element CSS End *********/
@@ -125,6 +129,7 @@ h3 {
   padding: 0 24px 12px;
   color: #fff;
   position: relative;
+  background: #333;
   z-index: 1;
   overflow: hidden;
   transform: translateY(calc(100% - 54px));
@@ -138,6 +143,7 @@ h3 {
 }
 .game-section .item-desc p {
   opacity: 0;
+  background-color: transparent;
   -webkit-transform: translateY(32px);
   transform: translateY(32px);
   transition: all 0.4s ease-in-out 0.2s;
